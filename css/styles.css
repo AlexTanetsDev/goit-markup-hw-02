@@ -37,7 +37,7 @@ h2,h3,h4{
     color: var(--main-accent-color);
 }
 
-.list, .features-list{
+.list, .features-list, .portfolio-list{
     list-style: none;
 }
 .site-nav, .mail, .tel{
@@ -53,7 +53,8 @@ h2,h3,h4{
     color: var(--main-text-color);
 }
 
-.site-nav:hover, header .mail:hover, header .tel:hover{
+.site-nav:hover, header .mail:hover, header .tel:hover, 
+.site-nav:focus, header .mail:focus, header .tel:focus{
 color: var(--main-accent-color);
 }
 .hero-title{
@@ -120,10 +121,42 @@ address{
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--main-white-color);
+    font-style: normal;
 }
 address a{
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* porfolio */
+
+.portfolio-button{
+    color: var(--main-title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+}
+.portfolio-button:hover, .portfolio-button:focus{
+    background-color: var(--main-accent-color);
+    color: var(--main-white-color);
+}
+
+.portfolio-list h2{
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+.portfolio-list p{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.9;
+
 }
