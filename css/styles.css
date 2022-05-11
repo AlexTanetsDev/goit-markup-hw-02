@@ -37,7 +37,7 @@ h2,h3,h4{
     color: var(--main-accent-color);
 }
 
-.list, .features-list, .portfolio-list{
+.list, .features-list, .portfolio-list, .button-list{
     list-style: none;
 }
 .site-nav, .mail, .tel{
@@ -53,8 +53,8 @@ h2,h3,h4{
     color: var(--main-text-color);
 }
 
-.site-nav:hover, header .mail:hover, header .tel:hover, 
-.site-nav:focus, header .mail:focus, header .tel:focus{
+.site-nav:hover, .mail:hover,.tel:hover, 
+.site-nav:focus, .mail:focus,.tel:focus{
 color: var(--main-accent-color);
 }
 .hero-title{
@@ -66,7 +66,7 @@ color: var(--main-accent-color);
     text-transform: uppercase;
     color: var(--main-white-color);
 }
-.button{
+.hero-button{
     background-color: var(--main-accent-color);
     color: var(--main-white-color);
     font-family: 'Roboto';
@@ -75,6 +75,7 @@ color: var(--main-accent-color);
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 .hero{
     background-color: #2F303A;
@@ -86,7 +87,7 @@ color: var(--main-accent-color);
     text-transform: uppercase;
 }
 .features-list p{
-font-weight: 400;
+
 line-height: 1.7;
 letter-spacing: 0.03em;
 }
@@ -140,6 +141,7 @@ address a{
     text-align: center;
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .portfolio-button:hover, .portfolio-button:focus{
     background-color: var(--main-accent-color);
